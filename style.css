@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1055px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-top: 25px;
+    margin-left: 136px;
+}
+.logo{
+    width: 100px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: blue;
+
+
+}
+.navigation{
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+
+   
+}
+.navigation a{
+color: #000;
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+text-decoration: none;
+}.hero-section{
+    width: 1440px;
+    height: 504px;
+    flex-shrink: 0;
+}
+.background{
+    display: flex;
+    justify-content: space-between; /* Untuk memberikan ruang antara teks dan gambar */
+    text-align: center;
+    width: 1440px;
+    height: 500px;
+    flex-shrink: 0;
+    background: #F1F3FF;
+}
+.background img{
+    width: 704px;
+    height: 407px;
+    flex-shrink: 0;
+}
+.background h1{
+    width: 568px;
+    color: #000;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+.background p{
+    width: 468px;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;  /* Ini akan menyusun item-item dalam arah kolom */
+    justify-content: center; /* Ini akan menyelaraskan item-item di tengah elemen .text-content secara vertikal */
+}
+.conten-1{
+
+}
+.conten-2{
+
+}
+
